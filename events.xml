@@ -1,0 +1,5 @@
+SELECT traceid,property,value                              
+FROM ::fn_trace_getinfo(0)
+
+--EXEC sys.sp_trace_setstatus 2,0
+--EXEC sys.sp_trace_setstatus 2,2
